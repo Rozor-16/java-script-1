@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        #todolist{
+            text-align: center;
+            max-width: 300px;
+            margin: 0 auto;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="todolist">
+        <h2>My To-Do List</h2>
+        <input type="text" id="task" placeholder="New task">
+        <button onclick="addTask()">Add</button>
+        <ul id="tasklist">
+
+        </ul>
+
+    </div>
+
+    <script>
+        const tasklist=document.getElementById("tasklist");
+        const task=document.getElementById("task");
+
+        function addTask(){
+            const taskText = taskInput.value.trim();
+            
+        }
+    </script>
+</body>
+</html>
